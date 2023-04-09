@@ -1,0 +1,97 @@
+text summary:
+that allows the generation of short summary 
+generate paragraph:
+generates paragraph based on a keyword
+chatbot:
+that returns some answer as chatbot
+JS Converter:
+generates a code as per the given functionality
+Sci-fi image:
+this allows the generation of scifi image
+
+express for faster data 
+npm init to intialize the package.json file 
+script: to add something 
+express-- to create REST APIs
+mongoose  -- to connect with mongodb db
+dotenv--security
+morgan--for status check of rest api/shows url response
+cors --for cross origin node and react work on different servers 
+body-parser: from node when we send the json data then we need the body-parser
+color: to print colors inside the terminal
+
+dependency: npm i express mongoose dotenv morgan 
+server.js --main entry point
+
+node-modules-- folder that stores all the subpackages which are the dependencies or for project to work behind the scene we need 
+
+package-lock json--  dependencies of the dependencies
+
+server.js
+
+import express
+create rest object using express which we return the app object which we can listen on any port 
+all functionality of express is inside the node object
+to avoid the problem of server reloading each time we make changes we use the nodemon package
+nodemon makes the package on in the watch  mode 
+to start running application on extra commands go to package.json
+server:"nodemon server.js"
+start:"node server.js"
+
+npm run server --nodemon
+npm run start-- node
+
+
+.env file
+--to configure the confidential data
+--for changes made in dotenv to be reflected we need to stop the server and restart the application
+
+
+server.js connect to mongo
+
+always add mongo after the config()
+
+
+react for  reducing the front-end framwork
+interactive UI
+client will be created that contains the react application inside it 
+downloading some dependencies
+cd client
+npm i axios -- to deal with network request 
+react-router-dom -- to support the routing
+npm start
+npm install @mui/icons-material
+public--index.js
+
+
+nvc pattern
+--model view layeer seperate division of the layeer
+--time and efficiency is maintained
+
+
+
+
+models 
+--contains all the schema like userschema etc
+
+
+middleware
+
+
+utils for the utility folder or the new class or the 
+
+packages
+
+bcryptjs-- hashes the password to increase the application security
+jsonwebtoken-- token based authenciation where a token is generated which is a sign which can be decrypted using some unique decryption method
+cookie--for web cookie
+
+creating first model 
+email pass login logout etc
+
+
+concurrently --with one command only we can run both react and node app
+
+
+
+npm i react-hot-toast :
