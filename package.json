@@ -31,6 +31,7 @@
     "mongoose": "^7.0.3",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.22",
+    "openai": "^3.2.1",
     "react-hot-toast": "^2.4.0"
   }
 }
